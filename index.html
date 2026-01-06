@@ -35,7 +35,7 @@
     <section class="hero">
       <div class="container hero__grid">
         <div class="hero__copy">
-          <div class="pill">Stealth mode • Building quietly</div>
+          <div class="pill">Building the future of learning</div>
           <h1>Lighting the path to real understanding.</h1>
           <p class="lead">
             Lumina is building an AI-driven learning system for schools and children under 12 —
@@ -165,7 +165,6 @@
 
         <div class="how__art">
           <img src="assets/01_hero_tablet.png" alt="Child learning on a tablet with a friendly robot" />
-          <div class="hint">Designed to feel futuristic, but never overwhelming.</div>
         </div>
       </div>
     </section>
@@ -178,9 +177,6 @@
           <p>
             Lumina is an education technology initiative at the intersection of learning science and AI.
             We’re building a mastery-first system that supports educators and helps children truly understand core concepts.
-          </p>
-          <p class="muted">
-            We’re currently in stealth while we test, refine, and pilot quietly — because getting learning right matters more than launching fast.
           </p>
         </div>
 
@@ -205,7 +201,7 @@
           </div>
         </div>
 
-        <form class="form" onsubmit="return fakeSubmit(event)">
+        <form class="form" onsubmit="return handleSubmit(event)">
           <label>
             <span>Name</span>
             <input required name="name" placeholder="Your name" />
@@ -222,7 +218,6 @@
           </label>
 
           <button class="btn" type="submit">Send message</button>
-          <div class="form__note muted">This form is a frontend demo. Wire it to your backend later.</div>
           <div id="toast" class="toast" role="status" aria-live="polite"></div>
         </form>
       </div>
@@ -236,9 +231,7 @@
         <div class="brand__name">Lumina</div>
       </div>
       <div class="footer__meta">
-        <span>Stealth mode</span>
-        <span class="dot">•</span>
-        <span>© <span id="year"></span> Lumina</span>
+        <span>© <span id="year"></span> Lumina. All rights reserved.</span>
       </div>
     </div>
   </footer>
