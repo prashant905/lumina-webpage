@@ -1,0 +1,2 @@
+# No additional packages required for basic HTTP server
+# Python's built-in http.server module is sufficient
